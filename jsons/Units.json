@@ -1,0 +1,14 @@
+{
+  "name": "Goddess Casmia Avatar",
+  "unitType": "Melee",
+  "movement": 10,
+  "strength": 200,
+  "cost": -1,
+  "uniques": [
+    "Hovering unit", 
+    "Amphibious",
+    "Ignores terrain cost",
+    "Can move after attacking"
+  ],
+  "promotions": ["Casmia's Wrath", "Ocean's Blessing"]
+}

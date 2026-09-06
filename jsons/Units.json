@@ -5,6 +5,7 @@
   "strength": 200,
   "cost": -1,
   "uniques": [
+    "Unbuildable", 
     "Hovering unit", 
     "Amphibious",
     "Ignores terrain cost",

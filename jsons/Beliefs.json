@@ -1,0 +1,10 @@
+{
+  "name": "Goddess Casmia",
+  "type": "Pantheon",
+  "uniques": [
+    "+10 [Gold], +10 [Production] from [Coast] tiles",
+    "+10 [Gold], +10 [Production] from [Ocean] tiles",
+    "+10 [Gold], +10 [Production] from tiles with a [River]",
+    "Provides a [Goddess Casmia Avatar] unit" 
+  ]
+}

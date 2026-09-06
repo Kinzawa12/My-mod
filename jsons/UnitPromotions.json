@@ -1,9 +1,16 @@
 [
   {
-    "name": "Veteran Bertahan",
+    "name": "Casmia's Wrath",
     "uniques": [
-      "[+25]% Combat Strength <when defending>"
-    ],
-    "description": "Unit ini sangat berpengalaman dalam formasi bertahan, menyimulasikan latihan rutin saat siaga."
+      "Can attack 4 times per turn",
+      "Heals 50 damage every turn"
+    ]
+  },
+  {
+    "name": "Ocean's Blessing",
+    "uniques": [
+      "+100% Strength bonus when fighting in [Coast] tiles",
+      "+100% Strength bonus when fighting in [Ocean] tiles"
+    ]
   }
 ]

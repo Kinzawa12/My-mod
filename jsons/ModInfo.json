@@ -1,8 +1,7 @@
 {
-  "name": "Veteran Bertahan (Auto-EXP Sim)",
+  "name": "My Mod",
   "author": "Kita Berdua",
-  "description": "Semua unit militer mendapatkan bonus kekuatan bertahap saat bertahan, menyimulasikan EXP yang didapat saat berjaga di perbatasan. 100% Kompatibel dengan mod lain.",
+  "description": "This is just a random mod that I created",
   "modRequires": [],
   "modOptions": []
 }
-

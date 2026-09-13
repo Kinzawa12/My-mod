@@ -1,0 +1,10 @@
+[
+	{
+		"name": "God",
+		"movementType": "Land"
+	},
+	{
+		"name": "Demon",
+		"movementType": "Land"
+	}
+]

@@ -1,7 +1,7 @@
 {
-  "name": "My Mod",
-  "author": "Kita Berdua",
-  "description": "This is just a random mod that I created",
-  "modRequires": [],
-  "modOptions": []
+	"name": "My Mod",
+	"author": "Kita Berdua",
+	"description": "Our Mod",
+	"modRequires": [],
+	"modOptions": [],
 }

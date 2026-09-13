@@ -1,15 +1,29 @@
-{
-  "name": "Goddess Casmia Avatar",
-  "unitType": "Melee",
-  "movement": 10,
-  "strength": 200,
-  "cost": -1,
-  "uniques": [
-    "Unbuildable", 
-    "Hovering unit", 
-    "Amphibious",
-    "Ignores terrain cost",
-    "Can move after attacking"
-  ],
-  "promotions": ["Casmia's Wrath", "Ocean's Blessing"]
-}
+[
+	{
+		"name": "Goddess Cemia",
+		"unitType": "God",
+		"movement": 3,
+		"strength": 3,
+		"rangedStrength": 9,
+		"uniques": [
+			"Unbuildable",
+			"May travel on Water tiles without embarking",
+			"Double movement in [Water]",
+			"Ignores terrain cost",
+			"[1] additional attacks per turn",
+			"Heals [20] damage if it kills a unit"
+		]
+	},
+	{
+		"name": "Astaroth",
+		"unitType": "Demon",
+		"movement": 3,
+		"strength": 7,
+		"promotions": [
+			"Sword of Astaroth"
+		],
+		"uniques": [
+			"Unbuildable"
+		]
+	}
+]

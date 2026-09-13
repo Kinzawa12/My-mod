@@ -1,0 +1,22 @@
+[
+	{
+		"name": "Temple of Cemia",
+		"culture": 5,
+		"isNationalWonder": true,
+		"uniques": [
+		"Free [Goddess Cemia] appears",
+		"Destroyed when the city is captured",
+		"Unbuildable"
+		]
+	},
+	{
+		"name": "Altar of Astaroth",
+		"faith": 5,
+		"isNationalWonder": true,
+		"uniques": [
+		"Free [Astaroth] appears",
+		"Destroyed when the city is captured",
+		"Unbuildable"
+		]
+	}
+]

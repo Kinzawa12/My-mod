@@ -1,16 +1,199 @@
-[
-  {
-    "name": "Casmia's Wrath",
-    "uniques": [
-      "Can attack 4 times per turn",
-      "Heals 50 damage every turn"
-    ]
-  },
-  {
-    "name": "Ocean's Blessing",
-    "uniques": [
-      "+100% Strength bonus when fighting in [Coast] tiles",
-      "+100% Strength bonus when fighting in [Ocean] tiles"
-    ]
-  }
+  [
+	{
+		"name": "Demon Blood",
+		"prerequisites": [],
+		"unitTypes": ["Demon"],
+		"uniques": [
+			"[+15]% Strength",
+			"[+50] XP gained from combat"
+		]
+	},
+	{
+		"name": "Sanguine Touch",
+		"prerequisites": ["Demon Blood"],
+		"unitTypes": ["Demon"],
+		"uniques": [
+			"[+15]% Strength <when attacking>"
+		]
+	},
+	{
+		"name": "Hellblade",
+		"prerequisites": ["Sanguine Touch"],
+		"unitTypes": ["Demon"],
+		"uniques": [
+			"[+25]% Strength <when attacking>"
+		]
+	},
+	{
+		"name": "Carnage",
+		"prerequisites": ["Hellblade"],
+		"unitTypes": ["Demon"],
+		"uniques": [
+			"Heals [20] damage if it kills a unit"
+		]
+	},
+	{
+		"name": "Executioner",
+		"prerequisites": ["Carnage"],
+		"unitTypes": ["Demon"],
+		"uniques": [
+			"Earn [50]% of killed [Land] unit's [Strength] as [Gold]"
+		]
+	},
+	{
+		"name": "Demon Armor I",
+		"prerequisites": ["Demon Blood"],
+		"unitTypes": ["Demon"],
+		"uniques": [
+			"[+25]% Strength <when defending>"
+		]
+	},
+	{
+		"name": "Demon Armor II",
+		"prerequisites": ["Demon Armor I"],
+		"unitTypes": ["Demon"],
+		"uniques": [
+			"[+35]% Strength <when defending>"
+		]
+	},
+	{
+		"name": "Unyielding Shell",
+		"prerequisites": ["Demon Armor II"],
+		"unitTypes": ["Demon"],
+		"uniques": [
+			"No damage penalty for wounded units"
+		]
+	},
+	{
+		"name": "Abyssal Aegis",
+		"prerequisites": ["Unyielding Shell"],
+		"unitTypes": ["Demon"],
+		"uniques": [
+			"Damage taken from interception reduced by [100]%",
+			"No defensive terrain penalty"
+		]
+	},
+	{
+		"name": "Shadow Step",
+		"prerequisites": ["Demon Blood"],
+		"unitTypes": ["Demon"],
+		"uniques": [
+			"[1] Movement",
+			"Ignores terrain cost"
+		]
+	},
+	{
+		"name": "Desecrator",
+		"prerequisites": ["Shadow Step"],
+		"unitTypes": ["Demon"],
+		"uniques": [
+			"No movement cost to pillage",
+			"[100]% Health from pillaging tiles"
+		]
+	},
+	{
+		"name": "Fear Aura",
+		"prerequisites": ["Desecrator"],
+		"unitTypes": ["Demon"],
+		"uniques": [
+			"[-15]% Strength for enemy [Land] units in adjacent [Any] tiles"
+		]
+	},
+	{
+		"name": "Soul Harvest",
+		"prerequisites": ["Fear Aura"],
+		"unitTypes": ["Demon"],
+		"uniques": [
+			"All adjacent units heal [15] HP when healing",
+		]
+	},
+	{
+		"name": "Demon's Mark",
+		"prerequisites": ["Demon Blood"],
+		"unitTypes": ["Demon"],
+		"uniques": [
+			"[+25]% XP gained from combat"
+		]
+	},
+	{
+		"name": "Soul Drain",
+		"prerequisites": ["Demon's Mark"],
+		"unitTypes": ["Demon"],
+		"uniques": [
+			"Earn [100]% of killed [Land] unit's [Strength] as [Faith]"
+		]
+	},
+	{
+		"name": "Hellfire Aura",
+		"prerequisites": ["Soul Drain"],
+		"unitTypes": ["Demon"],
+		"uniques": [
+			"Before engaging in combat performs an extra ranged attack with [30]% of melee combat strength"
+		]
+	},
+	{
+		"name": "Abyssal Dominion",
+		"prerequisites": ["Hellfire Aura"],
+		"unitTypes": ["Demon"],
+		"uniques": [
+			"Unit will heal every turn, even if it performs an action"
+		]
+	},
+	{
+		"name": "Siege Demon",
+		"prerequisites": ["Demon Blood"],
+		"unitTypes": ["Demon"],
+		"uniques": [
+			"[+30]% Strength <vs cities>"
+		]
+	},
+	{
+		"name": "Ruin Bringer",
+		"prerequisites": ["Siege Demon"],
+		"unitTypes": ["Demon"],
+		"uniques": [
+			"Destroys tile improvements when attacking"
+		]
+	},
+	{
+		"name": "City Breaker",
+		"prerequisites": ["Ruin Bringer"],
+		"unitTypes": ["Demon"],
+		"uniques": [
+			"[+50]% Strength <vs cities>"
+		]
+	},
+	{
+		"name": "Cataclysm",
+		"prerequisites": ["City Breaker"],
+		"unitTypes": ["Demon"],
+		"uniques": [
+			"Upon capturing a city, receive [10] times its [Production] production as [Gold] immediately"
+		]
+	},
+	{
+		"name": "True Demon",
+		"prerequisites": ["Executioner"],
+		"unitTypes": ["Demon"],
+		"uniques": [
+			"[+40]% Strength",
+			"[1] additional attacks per turn"
+		]
+	},
+	{
+		"name": "Demon Lord",
+		"prerequisites": ["True Demon"],
+		"unitTypes": ["Demon"],
+		"uniques": [
+			"[+100]% Strength <when defending>",
+			"[+50]% Strength <when attacking>",
+			"Earn [100]% of killed [Land] unit's [Strength] as [Gold]"
+		]
+	},
+	{
+		"name": "Sword of Astaroth",
+		"uniques": [
+			"[2] additional attacks per turn"
+		]
+	}
 ]

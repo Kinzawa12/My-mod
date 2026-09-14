@@ -176,6 +176,8 @@
 		"prerequisites": ["Executioner"],
 		"unitTypes": ["Demon"],
 		"uniques": [
+			"[+30] Strength <for units with [Abyssal Aegis]> <for units with [Soul Harvest]> <for units with [Abyssal Dominion]> <for units with [Cataclysm]>",
+			"[1] additional attacks per turn <for units with [Abyssal Aegis]> <for units with [Soul Harvest]> <for units with [Abyssal Dominion]> <for units with [Cataclysm]>",
 			"[+40]% Strength",
 			"[1] additional attacks per turn"
 		]
@@ -185,6 +187,7 @@
 		"prerequisites": ["True Demon"],
 		"unitTypes": ["Demon"],
 		"uniques": [
+			"[+100] Strength",
 			"[+100]% Strength <when defending>",
 			"[+50]% Strength <when attacking>",
 			"Earn [100]% of killed [Land] unit's [Strength] as [Gold]"

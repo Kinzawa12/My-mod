@@ -198,5 +198,217 @@
 		"uniques": [
 			"[2] additional attacks per turn"
 		]
+	},
+	{
+		"name": "Divine Grace",
+		"unitTypes": ["God"],
+		"uniques": [
+			"[10] HP when healing",
+			"[1] Sight"
+		]
+	},
+	{
+		"name": "Aegis of Light",
+		"prerequisites": ["Divine Grace"],
+		"unitTypes": ["God"],
+		"uniques": [
+			"[+25]% Strength <when defending>"
+		]
+	},
+	{
+		"name": "Sanctuary",
+		"prerequisites": ["Aegis of Light"],
+		"unitTypes": ["God"],
+		"uniques": [
+			"All adjacent units heal [15] HP when healing"
+		]
+	},
+	{
+		"name": "Holy Barrier",
+		"prerequisites": ["Sanctuary"],
+		"unitTypes": ["God"],
+		"uniques": [
+			"[-15]% Strength for enemy [Land] units in adjacent tiles"
+		]
+	},
+	{
+		"name": "Immortal Will",
+		"prerequisites": ["Holy Barrier"],
+		"unitTypes": ["God"],
+		"uniques": [
+			"Unit will heal every turn, even if it performs an action"
+		]
+	},
+	{
+		"name": "Celestial Strike",
+		"unitTypes": ["God"],
+		"uniques": [
+			"[+20]% Strength <when attacking>"
+		]
+	},
+	{
+		"name": "Smite",
+		"prerequisites": ["Celestial Strike"],
+		"unitTypes": ["God"],
+		"uniques": [
+			"[+15] Strength"
+		]
+	},
+	{
+		"name": "Divine Wrath",
+		"prerequisites": ["Smite"],
+		"unitTypes": ["God"],
+		"uniques": [
+			"Before engaging in combat performs an extra ranged attack with [30]% of melee combat strength"
+		]
+	},
+	{
+		"name": "Heavenly Retribution",
+		"prerequisites": ["Divine Wrath"],
+		"unitTypes": ["God"],
+		"uniques": [
+			"Heals [20] damage if it kills a unit"
+		]
+	},
+	{
+		"name": "Cataclysmic Force",
+		"prerequisites": ["Heavenly Retribution"],
+		"unitTypes": ["God"],
+		"uniques": [
+			"[+35] Strength",
+			"[1] Range"
+		]
+	},
+	{
+		"name": "Astral Sight",
+		"unitTypes": ["God"],
+		"uniques": [
+			"[1] Sight",
+			"[1] Movement"
+		]
+	},
+	{
+		"name": "Speed of Light",
+		"prerequisites": ["Astral Sight"],
+		"unitTypes": ["God"],
+		"uniques": [
+			"Ignores terrain cost"
+		]
+	},
+	{
+		"name": "Dimensional Shift",
+		"prerequisites": ["Speed of Light"],
+		"unitTypes": ["God"],
+		"uniques": [
+			"Ignores Zone of Control"
+		]
+	},
+	{
+		"name": "Elemental Dominance",
+		"prerequisites": ["Dimensional Shift"],
+		"unitTypes": ["God"],
+		"uniques": [
+			"[+35]% Strength <when fighting in [Coastal Water] tiles>"
+		]
+	},
+	{
+		"name": "Omnipresence",
+		"prerequisites": ["Elemental Dominance"],
+		"unitTypes": ["God"],
+		"uniques": [
+			"Damage taken from interception reduced by [100]%",
+			"No defensive terrain penalty"
+		]
+	},
+	{
+		"name": "Divine Favor",
+		"unitTypes": ["God"],
+		"uniques": [
+			"[+25]% XP gained from combat"
+		]
+	},
+	{
+		"name": "Soul Consecration",
+		"prerequisites": ["Divine Favor"],
+		"unitTypes": ["God"],
+		"uniques": [
+			"Earn [100]% of killed [Land] unit's [Strength] as [Faith]"
+		]
+	},
+	{
+		"name": "Golden Grace",
+		"prerequisites": ["Soul Consecration"],
+		"unitTypes": ["God"],
+		"uniques": [
+			"Earn [50]% of killed [Land] unit's [Strength] as [Gold]"
+		]
+	},
+	{
+		"name": "Blessing of Abundance",
+		"prerequisites": ["Golden Grace"],
+		"unitTypes": ["God"],
+		"uniques": [
+			"Upon capturing a city, receive [10] times its [Production] production as [Gold] immediately"
+		]
+	},
+	{
+		"name": "True Deity",
+		"prerequisites": ["Cataclysmic Force"],
+		"unitTypes": ["God"],
+		"uniques": [
+			"[+50] Strength <for units with [Immortal Will]> <for units with [Omnipresence]> <for units with [Blessing of Abundance]> <for units with [Domain Dominion]>",
+			"[1] additional attacks per turn <for units with [Immortal Will]> <for units with [Omnipresence]> <for units with [Blessing of Abundance]>"
+		]
+	},
+	{
+		"name": "Supreme God",
+		"prerequisites": ["True Deity"],
+		"unitTypes": ["God"],
+		"uniques": [
+			"[+100] Strength",
+			"[+50]% Strength <when defending>",
+			"[+50]% Strength <when attacking>"
+		]
+	},
+	{
+		"name": "Aura of Command",
+		"unitTypes": ["God"],
+		"uniques": [
+			"[+15]% Strength <vs cities>"
+		]
+	},
+	{
+		"name": "Fortress Breaker",
+		"prerequisites": ["Aura of Command"],
+		"unitTypes": ["God"],
+		"uniques": [
+			"[+30]% Strength <vs cities>"
+		]
+	},
+	{
+		"name": "Divine Scourge",
+		"prerequisites": ["Fortress Breaker"],
+		"unitTypes": ["God"],
+		"uniques": [
+			"Destroys tile improvements when attacking",
+			"No movement cost to pillage"
+		]
+	},
+	{
+		"name": "Earthshaker",
+		"prerequisites": ["Divine Scourge"],
+		"unitTypes": ["God"],
+		"uniques": [
+			"[+50]% Strength <vs cities>"
+		]
+	},
+	{
+		"name": "Domain Dominion",
+		"prerequisites": ["Earthshaker"],
+		"unitTypes": ["God"],
+		"uniques": [
+			"[+30] Strength <vs cities>",
+			"[100]% Health from pillaging tiles"
+		]
 	}
 ]

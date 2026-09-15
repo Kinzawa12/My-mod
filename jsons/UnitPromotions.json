@@ -228,7 +228,7 @@
 		"prerequisites": ["Sanctuary"],
 		"unitTypes": ["God"],
 		"uniques": [
-			"[-15]% Strength for enemy [Land] units in adjacent tiles"
+			"[-15]% Strength for enemy [Land] units in adjacent [Any] tiles"
 		]
 	},
 	{

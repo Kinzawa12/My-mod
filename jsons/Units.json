@@ -1,18 +1,19 @@
 [
-	{
-		"name": "Goddess Cemia",
-		"unitType": "God",
-		"movement": 3,
-		"strength": 3,
-		"rangedStrength": 9,
-		"uniques": [
-			"Unbuildable",
-			"May travel on Water tiles without embarking",
-			"Double movement in [Water]",
-			"Ignores terrain cost",
-			"[1] additional attacks per turn",
-			"Heals [20] damage if it kills a unit"
-		]
+  {
+    "name": "Goddess Cemia",
+    "unitType": "God",
+    "movement": 3,
+    "strength": 3,
+    "rangedStrength": 9,
+    "range": 2,
+    "uniques": [
+      "Unbuildable",
+      "May travel on Water tiles without embarking",
+      "Double movement in [Coastal Water]",
+      "Ignores terrain cost",
+      "[1] additional attacks per turn",
+      "Heals [20] damage if it kills a unit"
+    ]
 	},
 	{
 		"name": "Astaroth",

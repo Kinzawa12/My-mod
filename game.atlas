@@ -1,0 +1,27 @@
+
+game.png
+size: 512, 128
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+BuildingIcons/Altar of Astaroth
+  rotate: false
+  xy: 132, 9
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Temple of Cemia
+  rotate: false
+  xy: 240, 9
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Astaroth
+  rotate: false
+  xy: 4, 4
+  size: 120, 105
+  orig: 120, 105
+  offset: 0, 0
+  index: -1

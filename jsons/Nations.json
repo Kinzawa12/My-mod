@@ -24,8 +24,10 @@
     "favoredReligion": "The Goddess of Cemia",
     "uniqueName": "Sovereignty of the Tides",
     "uniques": [
-      "[+1 Production, +1 Gold] from every [Coast] tiles",
-      "[+1 Production, +1 Gold] from every [Ocean] tiles",
+      "[+1 Production] from every [Coast] tiles",
+      "[+1 Gold] from every [Coast] tiles",
+      "[+1 Production] from every [Ocean] tiles",
+      "[+1 Gold] from every [Ocean] tiles",
       "[+1] Movement <for [Water] units>"
     ],
     "cities": [

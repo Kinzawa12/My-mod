@@ -1,0 +1,41 @@
+[
+  {
+    "name": "Imperium Veldoria",
+    "leaderName": "Player",
+    "adjective": ["Veldorian"],
+    "startBias": ["Coast"],
+    "preferredVictoryType": "Domination",
+
+    "startIntroPart1": "Hail, Sovereign Player of the mighty Imperium Veldoria! Born from the depths and masters of the endless seas, your people have tamed the ocean currents to build an imperial stronghold.",
+    "startIntroPart2": "O Great Player, your fleet stands ready and your people look toward the horizon. Will you spread the dominance of Veldoria across all lands and oceans?",
+
+    "declaringWar": "The depths demand your surrender! Face the wrath of Veldoria!",
+    "attacked": "You dare challenge the tides? The ocean will swallow your armies whole.",
+    "defeated": "The empire sinks into legend... but the tides will eventually return.",
+    "introduction": "I am Player, ruler of Imperium Veldoria. State your business before the sea claims your ships.",
+
+    "neutralHello": "Greetings, traveler of the high seas.",
+    "hateHello": "Why are you trespassing in Veldorian waters?!",
+
+    "tradeRequest": "The ocean offers wealth to those wise enough to bargain with Veldoria.",
+
+    "outerColor": [15, 45, 85],
+    "innerColor": [185, 235, 255],
+    "favoredReligion": "The Goddess of Cemia",
+    "uniqueName": "Sovereignty of the Tides",
+    "uniques": [
+      "[+1 Production, +1 Gold] from [Coast] tiles",
+      "[+1 Production, +1 Gold] from [Ocean] tiles",
+      "[+1] Movement <for [Water] units>"
+    ],
+    "cities": [
+      "Veldoria", "Thalassa", "Pelagia", "Tidewatch", "Stormreach",
+      "Oceanus", "Maris", "Coralia", "Aethelgard", "Nereida",
+      "Tidehaven", "Abyssal Keep", "Seagaze", "Maelstrom", "Sunken Citadel"
+    ],
+    "spyNames": [
+      "Nereus", "Thalor", "Sirena", "Vaelen", "Kaelen",
+      "Scylla", "Calypso", "Tidebinder", "Deepseeker", "Corvo"
+    ]
+  }
+]

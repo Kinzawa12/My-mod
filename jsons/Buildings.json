@@ -20,23 +20,23 @@
 		]
 	},
   {
-    "name": "Crown of Veldor the Warlord",
+    "name": "Crown of Veldor-Aurelius the Warlord",
     "cost": 0,
     "isNationalWonder": true,
     "uniqueTo": "Imperium Veldoria",
     "uniques": [
-      "Unavailable <if [Crown of Veldor the Archmage] is constructed>",
+      "Unavailable <if [Crown of Veldor-Lysandra the Archmage] is constructed>",
       "[+3 Production, +5 Gold]",
       "[+15]% Strength <for [Military] units>"
     ]
   },
   {
-    "name": "Crown of Veldor the Archmage",
+    "name": "Crown of Veldor-Lysandra the Archmage",
     "cost": 0,
     "isNationalWonder": true,
     "uniqueTo": "Imperium Veldoria",
     "uniques": [
-      "Unavailable <if [Crown of Veldor the Warlord] is constructed>",
+      "Unavailable <if [Crown of Veldor-Aurelius the Warlord] is constructed>",
       "[+3 Culture, +5 Faith]",
       "[-10]% Culture cost of adopting new Policies"
     ]

@@ -26,5 +26,16 @@
 		"uniques": [
 			"Unbuildable"
 		]
-	}
+	},
+  {
+    "name": "Ekspedisi Geologi",
+    "unitType": "Civilian",
+    "movement": 2,
+    "cost": 100,
+    "uniques": [
+      "Can instantly construct a [Mine] improvement",
+      "Add [Iron] to this tile <by consuming this unit>",
+      "May buy [Ekspedisi Geologi] units with [Gold] [in all cities]"
+    ]
+  }
 ]

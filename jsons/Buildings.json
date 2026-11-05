@@ -92,7 +92,7 @@
     "uniques": [
       "[+3 Faith, +1 Culture]",
       "Limited to [1] per Civilization",
-      "Requires a [Shrine of Cemia] in all cities",
+      "<if [Shrine of Cemia] is constructed in all [in all [non-[puppeted]] cities] cities>",
       "Empire enters a [6]-turn Golden Age <upon constructing [Shrine of Cemia Goddess]>",
       "[+1 Faith] from [Coast] tiles [in all cities]"
     ],

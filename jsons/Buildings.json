@@ -80,5 +80,22 @@
       "[+1 Science] from [Coast] tiles [in this city]",
       "[+1 Science] from [Ocean] tiles [in this city]"
     ]
+  },
+  {
+    "name": "Shrine of Cemia Goddess",
+    "uniqueTo": "Imperium Veldoria",
+    "isWonder": true,
+    "cost": 125,
+    "culture": 2,
+    "greatPersonPoints": { "Great Prophet": 2 },
+    "requiredTech": "Philosophy",
+    "uniques": [
+      "[+3 Faith, +1 Culture]",
+      "Limited to [1] per Civilization",
+      "Requires a [Shrine of Cemia] in all cities",
+      "Empire enters a [6]-turn Golden Age <upon constructing [Shrine of Cemia Goddess]>",
+      "[+1 Faith] from [Coast] tiles [in all cities]"
+    ],
+    "quote": "'The ocean does not beg for power, it is power itself. Under Cemia's veil, the tides shall obey.'"
   }
 ]

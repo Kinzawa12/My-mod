@@ -9,7 +9,7 @@
     "uniques": [
       "Unbuildable",
       "May travel on Water tiles without embarking",
-      "Double movement in [Coastal Water]",
+      "Double movement in [Coast]",
       "Ignores terrain cost",
       "[1] additional attacks per turn",
       "Heals [20] damage if it kills a unit"

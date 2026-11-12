@@ -416,8 +416,7 @@
 		"unitTypes": ["Envoy"],
 		"uniques": [
 			"[10] HP when healing",
-			"[1] Sight",
-			"[This Unit] gains [3] XP <upon turn end> <when adjacent to a [Military] unit>"
+			"[1] Sight"
 		]
 	},
 	{

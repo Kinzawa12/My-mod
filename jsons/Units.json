@@ -26,5 +26,17 @@
 		"uniques": [
 			"Unbuildable"
 		]
+	},
+	{
+		"name": "Harmez",
+		"unitType": "Envoy",
+		"movement": 2,
+		"strength": 3,
+		"uniques": [
+			"Unbuildable",
+			"Cannot attack",
+			"Can instantly construct a [Customs house] improvement <for units without [Harmez Cooldown]>",
+			"[This Unit] gains the [Harmez Cooldown] status for [8] turn(s) <upon building a [Customs house] improvement>"
+		]
 	}
 ]

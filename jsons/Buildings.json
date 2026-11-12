@@ -18,5 +18,15 @@
 		"Destroyed when the city is captured",
 		"Unbuildable"
 		]
+	},
+	{
+		"name": "Temple of Harmez",
+		"isNationalWonder": true,
+		"gold": 3,
+		"uniques": [
+			"Unbuildable",
+			"Free [Harmez] appears",
+			"Destroyed when the city is captured"
+		]
 	}
 ]

@@ -26,7 +26,8 @@
 		"uniques": [
 			"Unbuildable",
 			"Free [Harmez] appears",
-			"Destroyed when the city is captured"
+			"Destroyed when the city is captured",
+			"New [Envoy] units start with [X] XP [in all cities]"
 		]
 	}
 ]

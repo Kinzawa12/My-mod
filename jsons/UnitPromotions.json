@@ -410,5 +410,103 @@
 			"[+30] Strength <vs cities>",
 			"[100]% Health from pillaging tiles"
 		]
+	},
+	{
+		"name": "Gentle Hand",
+		"unitTypes": ["Envoy"],
+		"uniques": [
+			"[10] HP when healing",
+			"[1] Sight",
+			"[This Unit] gains [3] XP <upon turn end> <when adjacent to a [Military] unit>"
+		]
+	},
+	{
+		"name": "Mending Aura",
+		"prerequisites": ["Gentle Hand"],
+		"unitTypes": ["Envoy"],
+		"uniques": [
+			"All adjacent units heal [15] HP when healing"
+		]
+	},
+	{
+		"name": "Wayfarer's Rest",
+		"prerequisites": ["Mending Aura"],
+		"unitTypes": ["Envoy"],
+		"uniques": [
+			"May heal outside of friendly territory"
+		]
+	},
+	{
+		"name": "Everlasting Mercy",
+		"prerequisites": ["Wayfarer's Rest"],
+		"unitTypes": ["Envoy"],
+		"uniques": [
+			"Unit will heal every turn, even if it performs an action",
+			"All healing effects doubled"
+		]
+	},
+	{
+		"name": "Merchant's Banner",
+		"unitTypes": ["Envoy"],
+		"uniques": [
+			"[+10]% Strength bonus for [Military] units within [2] tiles"
+		]
+	},
+	{
+		"name": "Banner of Coin",
+		"prerequisites": ["Merchant's Banner"],
+		"unitTypes": ["Envoy"],
+		"uniques": [
+			"[+15]% Strength bonus for [Military] units within [2] tiles"
+		]
+	},
+	{
+		"name": "Banner of Gold",
+		"prerequisites": ["Banner of Coin"],
+		"unitTypes": ["Envoy"],
+		"uniques": [
+			"[+20]% Strength bonus for [Military] units within [3] tiles"
+		]
+	},
+	{
+		"name": "Wary Eyes",
+		"unitTypes": ["Envoy"],
+		"uniques": [
+			"[1] Sight",
+			"Can see over obstacles"
+		]
+	},
+	{
+		"name": "Fleet Foot",
+		"prerequisites": ["Wary Eyes"],
+		"unitTypes": ["Envoy"],
+		"uniques": [
+			"[1] Movement"
+		]
+	},
+	{
+		"name": "Caravan Road",
+		"prerequisites": ["Fleet Foot"],
+		"unitTypes": ["Envoy"],
+		"uniques": [
+			"Ignores terrain cost"
+		]
+	},
+	{
+		"name": "Ward of Presence",
+		"prerequisites": ["Caravan Road"],
+		"unitTypes": ["Envoy"],
+		"uniques": [
+			"[-10]% Strength for enemy [Land] units in adjacent [Any] tiles"
+		]
+	},
+	{
+		"name": "Patron of Armies",
+		"prerequisites": ["Banner of Gold"],
+		"unitTypes": ["Envoy"],
+		"uniques": [
+			"[+15]% Strength bonus for [Military] units within [3] tiles <for units with [Everlasting Mercy]>",
+			"[-10]% Strength for enemy [Land] units in adjacent [Any] tiles <for units with [Ward of Presence]>"
+		]
 	}
 ]

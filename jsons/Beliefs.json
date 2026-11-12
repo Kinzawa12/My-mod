@@ -18,5 +18,14 @@
 			"[+2 Faith] from every [Mine]",
 			"Provides a [Altar of Astaroth] in your first [1] cities for free"
 		]
+	},
+	{
+		"name": "God of Harmez",
+		"type": "Pantheon",
+		"uniques": [
+			"Provides a [Temple of Harmez] in your first [1] cities for free",
+			"[+1 Gold] from every [Desert]",
+			"[+1 Gold] from each Trade Route"
+		]
 	}
 ]

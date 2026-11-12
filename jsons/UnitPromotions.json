@@ -508,5 +508,11 @@
 			"[+15]% Strength bonus for [Military] units within [3] tiles <for units with [Everlasting Mercy]>",
 			"[-10]% Strength for enemy [Land] units in adjacent [Any] tiles <for units with [Ward of Presence]>"
 		]
+	},
+	{
+		"name": "Harmez Cooldown",
+		"uniques": [
+			"Comment [Customs house sedang isi ulang]"
+		]
 	}
 ]

@@ -36,7 +36,8 @@
 			"Unbuildable",
 			"Cannot attack",
 			"Can instantly construct a [Customs house] improvement <for units without [Harmez Cooldown]>",
-			"[This Unit] gains the [Harmez Cooldown] status for [8] turn(s) <upon building a [Customs house] improvement>"
+			"[This Unit] gains the [Harmez Cooldown] status for [8] turn(s) <upon building a [Customs house] improvement>",
+			"[This Unit] gains [3] XP <upon turn end>"
 		]
 	}
 ]
